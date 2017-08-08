@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_transportation *.css
+recursive-include nodux_transportation *.csv
+recursive-include nodux_transportation *.html
+recursive-include nodux_transportation *.ico
+recursive-include nodux_transportation *.js
+recursive-include nodux_transportation *.json
+recursive-include nodux_transportation *.md
+recursive-include nodux_transportation *.png
+recursive-include nodux_transportation *.py
+recursive-include nodux_transportation *.svg
+recursive-include nodux_transportation *.txt
+recursive-exclude nodux_transportation *.pyc
